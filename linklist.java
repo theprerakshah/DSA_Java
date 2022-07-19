@@ -24,7 +24,7 @@ public class linklist {
 
         Node newnode = new Node(d);
 
-        newnode.data = d;
+        // newnode.data = d;
         newnode.next = head;
 
         head = newnode;
